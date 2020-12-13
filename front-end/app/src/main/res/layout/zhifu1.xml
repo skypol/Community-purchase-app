@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:text="请核对订单信息是否正确。"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/dialog_price"
+            android:layout_below="@+id/dialog_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="确认无误后，请支付："
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+
+        <RadioGroup
+            android:id="@+id/rg_orientation"
+            android:layout_below="@+id/dialog_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:layout_marginLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/rb_bankcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="银行卡支付"/>
+
+            <RadioButton
+                android:id="@+id/rb_zhifubao"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付宝支付"/>
+            <RadioButton
+                android:id="@+id/rb_wechat"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信支付"/>
+        </RadioGroup>
+
+        <!--        <com.stx.openeyes.widget.ClearWriteEditText-->
+        <!--            android:id="@+id/pay_password"-->
+        <!--            android:layout_below="@+id/rg_orientation"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:layout_marginLeft="20dp"-->
+        <!--            android:layout_marginRight="20dp"-->
+        <!--            android:background="@drawable/rc_ed_public_service_search_selector"-->
+        <!--            android:drawablePadding="5dip"-->
+        <!--            android:hint="请输入密码"-->
+        <!--            android:inputType="textPassword"-->
+        <!--            android:maxLength="16"-->
+        <!--            android:maxLines="1"-->
+        <!--            android:paddingLeft="10dip"-->
+        <!--            android:paddingRight="10dip"-->
+        <!--            android:textColor="#FFF"-->
+        <!--            android:textColorHint="@color/colorBlack"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/rg_orientation"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dialog_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="#436EEE"
+                android:clickable="false"
+                android:text="退出"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/dialog_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="#436EEE"
+                android:text="去支付"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

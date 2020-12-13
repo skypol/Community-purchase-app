@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="     社区惠购APP以互联网为基础，为用户提供便利的购物平台，不仅提供线上服务，也为用户提供线下服务，让用户放心购买，更重要的是，社区惠购APP真正提供足不出户的便利，解决了社区居民生活中的很多问题，例如，出门购物不方便，实体店中商品种类不全，产品质量等问题，节省了时间成本，赢得了便利，并且社区惠购以团购的形式，几个人拼成一个团，可以给客户优惠的价格，提高了社区居民生活的水平，具有实际的意义。"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="     当然由于技术有限，系统并没有那么完善，但是基本上满足用户的日常购物需求，可以实现用户的基本要求，但是如果遇到任何技术问题，您也可以联系我们进行技术更新"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+</LinearLayout>

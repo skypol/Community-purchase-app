@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:text="我们收集的信息:"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:text="     我们提供服务时，可能会收集、储存和使用下列与您有关的信息。如果您不提供相关信息，可能无法注册成为我们的用户、享受我们提供的某些服务，或者即便我们可以继续向您提供一些服务，也无法达到该服务拟达到的效果。"
+        android:textSize="18sp"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="您提供的信息:"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="     您在注册激活我们的软件时，向我们提供的相关个人信息，例如电话号码等；\n     您通过我们的服务进行相关业务操作时，以及您使用我们的服务时所储存的信息。"
+
+        android:textSize="18sp"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+    android:text="日志信息:"
+    android:textColor="#FF0000"
+    android:textSize="20sp"
+    android:singleLine="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+</TextView>
+
+
+    <TextView
+        android:text="     指您使用我们服务时，系统可能会通过一定方式自动采集的技术信息，包括：\n     设备或软件信息，例如您的移动设备、网页浏览器或您用于接入我们的服务的其他程序所提供的配置信息、您的IP地址和您的移动设备所用的版本和设备识别码；
+\n     有关您曾使用的移动应用（APP）和其他软件的信息，以及您曾经使用该等移动应用和软件的信息；
+\n     您通过我们的服务进行通讯的信息，例如账号，以及通讯时间、数据和时长；"
+
+        android:textSize="18sp"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="我们如何使用您的信息:"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="     我们可能将在向您提供服务的过程之中所收集的信息用作下列用途：\n
+     ● 向您提供服务；\n
+     ● 在我们提供服务时，用于身份验证、客户服务、安全防范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性；\n
+     ● 帮助我们设计新服务，改善我们现有服务；\n
+     ● 使我们更加了解您如何接入和使用我们的服务，从而针对性地回应您的个性化需求，例如语言设定、位置设定、个性化的帮助服务和指示，或对您和其他使用我们服务的用户作出其他方面的回应；\n
+     ● 软件认证或管理软件升级；\n
+     ● 让您参与有关我们产品和服务的调查。\n
+     为了让我们的用户有更好的体验、改善我们的服务或您同意的其他用途，在符合相关法律法规的前提下，我们可能将通过我们的某一项服务所收集的个人信息，以汇集信息或者个性化的方式，用于我们的其他服务。例如，在您使用我们的一项服务时所收集的您的个人信息，可能在另一服务中用于向您提供特定内容或向您展示与您相关的、而非普遍推送的信息。如我们在相关服务之中提供了相应选项，您也可以主动要求我们将您在该服务所提供和储存的个人信息用于我们的其他服务。"
+
+        android:textSize="18sp"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

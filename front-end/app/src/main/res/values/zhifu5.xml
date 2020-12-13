@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆形头像-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MNPasswordEditText">
+        <!--密码框的颜色-->
+        <attr name="mnPsw_border_color" format="color" />
+        <!--密码框选中的颜色-->
+        <attr name="mnPsw_border_selected_color" format="color" />
+        <!--密码文字的颜色,圆形密码颜色-->
+        <attr name="mnPsw_text_color" format="color" />
+        <!--密码框的圆角-->
+        <attr name="mnPsw_border_radius" format="dimension" />
+        <!--密码框的线的大小-->
+        <attr name="mnPsw_border_width" format="dimension" />
+        <!--密码框的每个间隔,只有样式2才起作用-->
+        <attr name="mnPsw_item_margin" format="dimension" />
+        <!--密码框背景色-->
+        <attr name="mnPsw_background_color" format="color" />
+        <!--密码框输入的模式:4.明文,3.文字,2.图片,1.圆形-->
+        <attr name="mnPsw_mode" format="enum">
+            <!--圆形默认-->
+            <enum name="Circle" value="1" />
+            <!--图片-->
+            <enum name="Bitmap" value="2" />
+            <!--文本-->
+            <enum name="Text" value="3" />
+            <!--原始-->
+            <enum name="OriginalText" value="4" />
+        </attr>
+        <!--密码框样式: 1.连在一起 2.分开单独显示  3.下划线形式-->
+        <attr name="mnPsw_style" format="enum">
+            <!--连在一起-->
+            <enum name="StyleDefault" value="1" />
+            <!--单独-->
+            <enum name="StyleOneself" value="2" />
+            <!--下划线形式-->
+            <enum name="StyleUnderLine" value="3" />
+        </attr>
+        <!--密码文字遮盖-->
+        <attr name="mnPsw_cover_text" format="string" />
+        <!--密码图片遮盖-->
+        <attr name="mnPsw_cover_bitmap_id" format="reference" />
+        <!--密码圆形遮盖颜色-->
+        <attr name="mnPsw_cover_circle_color" format="color" />
+        <!--密码圆形遮盖半径-->
+        <attr name="mnPsw_cover_circle_radius" format="dimension" />
+        <!--密码图片遮盖长宽-->
+        <attr name="mnPsw_cover_bitmap_width" format="dimension" />
+
+    </declare-styleable>
+
+</resources>
